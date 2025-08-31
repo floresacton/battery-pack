@@ -3742,6 +3742,16 @@
 		)
 		(uuid "8ded6146-c3ca-4ff3-9bc7-eccaad063814")
 	)
+	(text "LKS513\ntriple gate driver for inverter"
+		(exclude_from_sim no)
+		(at 40.386 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a7b3ea72-0538-4641-bd1b-3b620a2b9068")
+	)
 	(text "2nF capacitance"
 		(exclude_from_sim no)
 		(at 407.416 283.21 0)
