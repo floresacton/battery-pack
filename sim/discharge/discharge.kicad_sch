@@ -1718,7 +1718,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "AO3400"
 			(at 91.44 64.7699 0)
 			(effects
 				(font
@@ -1772,7 +1772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "ao3400.spice"
+		(property "Sim.Library" "/home/miguel/Projects/kicad-lib/spice/ao3400.spice"
 			(at 97.79 63.5 0)
 			(effects
 				(font
@@ -2186,10 +2186,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c078f4b1-6bee-4b24-be46-1b3a1ace48fe")
 		(property "Reference" "D1"
-			(at 118.11 68.5799 90)
+			(at 116.586 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2197,8 +2196,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 118.11 71.1199 90)
+		(property "Value" "1N4148W"
+			(at 109.728 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,7 +2232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "1n4148w.spice"
+		(property "Sim.Library" "/home/miguel/Projects/kicad-lib/spice/1n4148w.spice"
 			(at 115.57 69.85 0)
 			(effects
 				(font
@@ -2261,6 +2260,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 115.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "temp=25"
 			(at 115.57 69.85 0)
 			(effects
 				(font
