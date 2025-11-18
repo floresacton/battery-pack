@@ -4223,16 +4223,6 @@
 		)
 		(uuid "04239dac-82b4-4333-b896-b14aa9287270")
 	)
-	(text "5V gate drive"
-		(exclude_from_sim no)
-		(at 407.924 276.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2167fc15-d5c4-4a71-b3be-cd2edfde40db")
-	)
 	(text "C507088"
 		(exclude_from_sim no)
 		(at 98.806 76.962 0)
@@ -4253,16 +4243,6 @@
 		)
 		(uuid "4810fa78-aafb-4a4b-a1eb-c6025e7e51cd")
 	)
-	(text "5ms before 90%"
-		(exclude_from_sim no)
-		(at 408.94 267.716 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5d1b2d65-d9e4-4d5c-873a-2d553d5b4777")
-	)
 	(text "C2686653"
 		(exclude_from_sim no)
 		(at 98.806 82.296 0)
@@ -4282,26 +4262,6 @@
 			)
 		)
 		(uuid "6654ebc5-b9c1-4468-8b55-6b7dc712ccc5")
-	)
-	(text "2x loss so 40x for 5% diff"
-		(exclude_from_sim no)
-		(at 408.432 287.274 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "79e9ce3e-2d5a-4b20-814d-f8959826ca03")
-	)
-	(text "one time constant"
-		(exclude_from_sim no)
-		(at 408.432 273.304 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8ded6146-c3ca-4ff3-9bc7-eccaad063814")
 	)
 	(text "C2986239"
 		(exclude_from_sim no)
@@ -4353,16 +4313,6 @@
 		)
 		(uuid "aabbc6b5-03ad-48d2-a27c-10bd185f7972")
 	)
-	(text "2nF capacitance"
-		(exclude_from_sim no)
-		(at 407.416 283.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ca320ec0-b2b5-4f93-80b4-b7521aac87fa")
-	)
 	(text "C20605920"
 		(exclude_from_sim no)
 		(at 221.996 14.986 0)
@@ -4372,16 +4322,6 @@
 			)
 		)
 		(uuid "caccbb7d-34e5-490a-8340-b135b21faa1c")
-	)
-	(text "5V -> 2V in 100uS"
-		(exclude_from_sim no)
-		(at 407.924 279.908 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ebc930ab-2d85-4cd9-8d66-30297348a063")
 	)
 	(junction
 		(at 226.06 175.26)
@@ -6747,7 +6687,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 259.08) (xy 377.19 256.54)
+			(xy 266.7 250.19) (xy 266.7 247.65)
 		)
 		(stroke
 			(width 0)
@@ -8637,7 +8577,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 256.54) (xy 382.27 256.54)
+			(xy 266.7 247.65) (xy 271.78 247.65)
 		)
 		(stroke
 			(width 0)
@@ -9187,7 +9127,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 269.24) (xy 382.27 269.24)
+			(xy 266.7 260.35) (xy 271.78 260.35)
 		)
 		(stroke
 			(width 0)
@@ -10687,7 +10627,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 266.7) (xy 377.19 269.24)
+			(xy 266.7 257.81) (xy 266.7 260.35)
 		)
 		(stroke
 			(width 0)
@@ -11446,7 +11386,7 @@
 		(uuid "224a5a95-ec40-465f-a80f-7749ed368eb0")
 	)
 	(label "CBM"
-		(at 378.46 269.24 0)
+		(at 267.97 260.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11516,7 +11456,7 @@
 		(uuid "3452845c-d019-4fb4-b941-a78b9f7b8a0a")
 	)
 	(label "CBP"
-		(at 378.46 256.54 0)
+		(at 267.97 247.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16954,7 +16894,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 377.19 262.89 0)
+		(at 266.7 254 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16963,7 +16903,7 @@
 		(dnp no)
 		(uuid "8f4ab5c9-3f9c-44e8-a5d0-587a78312e67")
 		(property "Reference" "C30"
-			(at 382.905 261.493 0)
+			(at 272.415 252.603 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16971,7 +16911,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 382.905 264.033 0)
+			(at 272.415 255.143 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16979,7 +16919,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 378.1552 259.08 0)
+			(at 267.6652 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16988,7 +16928,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 377.19 262.89 0)
+			(at 266.7 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16997,7 +16937,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 377.19 262.89 0)
+			(at 266.7 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
